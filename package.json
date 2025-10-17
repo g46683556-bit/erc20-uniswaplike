@@ -7,9 +7,25 @@
     "deploy": "hardhat run --network goerli scripts/deploy.js"
   },
   "devDependencies": {
-    "hardhat": "^2.12.0",
     "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts": "^4.9.0",
     "ethers": "^5.7.0",
-    "@openzeppelin/contracts": "^4.9.0"
-  }
+    "hardhat": "^2.26.3"
+  },
+  "description": "Token ERC20 destinado a un proyecto tipo DEX / liquidity incentives.",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g46683556-bit/erc20-uniswaplike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g46683556-bit/erc20-uniswaplike/issues"
+  },
+  "homepage": "https://github.com/g46683556-bit/erc20-uniswaplike#readme"
 }

@@ -1,0 +1,12 @@
+(await token.balanceOf(user1.address)).toString();
+await token.transfer(user1.address, ethers.utils.parseEther("100"));
+await token.symbol();
+await token.name();
+const token = await ethers.getContractAt("UniswapLikeToken", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const [owner, user1] = await ethers.getSigners();
+.exit
+(await token.balanceOf(user1.address)).toString();
+await token.transfer(user1.address, ethers.utils.parseEther("100"));
+await token.name();
+const token = await ethers.getContractAt("UniswapLikeToken", "DIRECCION_DEL_CONTRATO");
+const [owner, user1] = await ethers.getSigners();
